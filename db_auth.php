@@ -10,6 +10,7 @@ $debug_msg = "";
 $db_user = $dbparams['user'];
 $db_password = $dbparams['password'];
 $db_name = $dbparams['database'];
+$db_port = $dbparams['port'];
 // $app_mode = $dbparams['app_mode'];
 
 define('DB_USER', $db_user);
@@ -18,7 +19,7 @@ define('DB_NAME', $db_name);
 define('DEV_MODE', $dbparams['dev_mode']);
 
 
-$db_port = $dbparams['port'];
+
 
 
 $db_string = 'mysql:host=localhost;dbname=' . $db_name;
